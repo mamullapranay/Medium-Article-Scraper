@@ -6,7 +6,7 @@ const puppeteer = require("puppeteer");
 
 // Initiating the express 
 const app = express();
-const port = process.env.PORT || 3000; 
+const port = process.env.PORT || 5000; 
 
 // Set up middleware to handle the cross-origin requests and to handle JSON data
 app.use(cors()); 
